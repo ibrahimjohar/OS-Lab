@@ -31,22 +31,22 @@
 |--------------|----------------|
 | 0 - 1        | P1             |
 | 1 - 3        | P2             |
-| 3 - 5        | P4             |
-| 5 - 7        | P2             |
+| 3 - 5        | P2             |
+| 5 - 7        | P4             |
 | 7 - 14       | P3             |
-| 14 - 18      | P1             |
+| 14 - 22      | P1             |
 
 Summary of Process Completion
 
 | Process | Arrival Time | Burst Time | Completion Time | Turnaround Time | Waiting Time |
 |---------|-------------|------------|----------------|----------------|--------------|
-| P1      | 0           | 9          | 18             | 18             | 9            |
-| P2      | 1           | 4          | 7              | 6              | 2            |
-| P3      | 2           | 7          | 14             | 12             | 5            |
-| P4      | 3           | 2          | 5              | 2              | 0            |
+| P1      | 0           | 9          | 22             | 13             | 9            |
+| P2      | 1           | 4          | 4              | 0              | 2            |
+| P3      | 2           | 7          | 14             | 5             | 5            |
+| P4      | 3           | 2          | 7              | 2              | 0            |
 
-- Average Waiting Time: (9 + 2 + 5 + 0) / 4 = 4
-- Average Turnaround Time: (18 + 6 + 12 + 2) / 4 = 9.5
+- Average Waiting Time: (9 + 2 + 5 + 0) / 4 = 5
+- Average Turnaround Time: (18 + 6 + 12 + 2) / 4 = 10.5
 
 ## Task 4
 
