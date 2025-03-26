@@ -1,6 +1,6 @@
-### OS Lab 7 Tasks
 ## Ibrahim Johar - 23K-0074 - BAI-4A
-### Task 1
+### OS Lab 7 Tasks
+## Task 1
 
 | Process | Arrival Time | Burst Time | Completion Time | Turnaround Time | Waiting Time |
 |---------|-------------|------------|----------------|----------------|--------------|
@@ -12,7 +12,7 @@
 - Average Waiting Time: (0 + 4 + 10 + 15) / 4 = 7.25
 - Average Turnaround Time: (6 + 12 + 17 + 18) / 4 = 13.25
 
-### Task 2
+## Task 2
 
 | Process | Arrival Time | Burst Time | Execution Order | Completion Time | Turnaround Time | Waiting Time |
 |---------|-------------|------------|----------------|----------------|----------------|--------------|
@@ -24,9 +24,9 @@
 - Average Waiting Time: (0 + 3 + 2 + 7) / 4 = 3
 - Average Turnaround Time: (5 + 5 + 6 + 16) / 4 = 8
 
-### Task 3
+## Task 3
 
-#### Time and Process Execution
+### Time and Process Execution
 | Time Interval | Running Process |
 |--------------|----------------|
 | 0 - 1        | P1             |
@@ -48,14 +48,14 @@ Summary of Process Completion
 - Average Waiting Time: (9 + 2 + 5 + 0) / 4 = 4
 - Average Turnaround Time: (18 + 6 + 12 + 2) / 4 = 9.5
 
-### Task 4
+## Task 4
 
-## Gantt Chart
+### Gantt Chart
 | P1  | P2  | P3  | P4  | P1  | P2  | P3  | P1  | P3  | P1  |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | 0   | 3   | 6   | 9   | 12  | 15  | 17  | 20  | 23  | 25  | 26  |
 
-## Process Details
+### Process Details
 | Process | Arrival Time | Burst Time | Completion Time | Turnaround Time | Waiting Time |
 |---------|-------------|------------|----------------|----------------|--------------|
 | P1      | 0           | 10         | 26             | 26 - 0 = 26    | 26 - 10 = 16 |
@@ -66,14 +66,14 @@ Summary of Process Completion
 - Average Waiting Time: (16 + 11 + 15 + 6) / 4 = 12
 - Average Turnaround Time: (26 + 16 + 23 + 9) / 4 = 18.5
 
-### Task 5
+## Task 5
 
-## Gantt Chart
+### Gantt Chart
 | P1  | P2  | P3  | P4  | P1  | P2  | P3  | P4  | P1  | P2  | P3  | P1  | P3  | P1  | P1  |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | 0   | 2   | 4   | 6   | 8   | 10  | 12  | 14  | 16  | 18  | 20  | 22  | 24  | 26  | 28  | 30 |
 
-## Process Details
+### Process Details
 | Process | Arrival Time | Burst Time | Completion Time | Turnaround Time | Waiting Time |
 |---------|-------------|------------|----------------|----------------|--------------|
 | P1      | 0           | 12         | 30             | 30 - 0 = 30    | 30 - 12 = 18 |
@@ -84,7 +84,7 @@ Summary of Process Completion
 - Average Waiting Time: (18 + 12 + 14 + 6) / 4 = 12.5
 - Average Turnaround Time: (30 + 18 + 22 + 10) / 4 = 20
 
-### Task 6
+## Task 6
 
 ### Gantt Chart
 | P1  | P2  | P3  | P4  |
@@ -102,14 +102,14 @@ Summary of Process Completion
 - Average Waiting Time: (0 + 6 + 9 + 14) / 4 = 7.25
 - *Average Turnaround Time:* (7 + 10 + 15 + 19) / 4 = 12.75
 
-### Task 7
+## Task 7
 
-## Gantt Chart
+### Gantt Chart
 | P1  | P2  | P1  | P3  |
 |-----|-----|-----|-----|
 | 0   | 1   | 4   | 8   | 13 |
 
-## Process Details
+### Process Details
 | Process | Arrival Time | Burst Time | Priority/Queue | Completion Time | Turnaround Time | Waiting Time |
 |---------|-------------|------------|---------------|----------------|----------------|--------------|
 | P1      | 0           | 8          | 2             | 8              | 8 - 0 = 8      | 8 - 8 = 0    |
